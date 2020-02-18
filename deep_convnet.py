@@ -131,9 +131,7 @@ class SoftmaxWithLoss:
 
 
 class Dropout:
-    """
-    http://arxiv.org/abs/1207.0580
-    """
+
 
     def __init__(self, dropout_ratio=0.5):
         self.dropout_ratio = dropout_ratio
@@ -324,9 +322,8 @@ class Pooling:
         return dx
 
 class DeepConvNet:
-    """识别率为99%以上的高精度的ConvNet
 
-    网络结构如下所示
+    网络结构
         conv - relu - conv- relu - pool -
         conv - relu - conv- relu - pool -
         conv - relu - conv- relu - pool -
