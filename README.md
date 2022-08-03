@@ -1,4 +1,4 @@
-# DeepLearning-Intro-Course
+# CNN for MNIST classification without framework using
 Capstone project of Deep Learning Intro Course,UESTC
 
 
